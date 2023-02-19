@@ -6,63 +6,311 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
     
+    
+    
     <script type="module" crossorigin src="/0000/assets/index-fac82e35.js"></script>
-    <link rel="stylesheet" href="/0000/assets/index-66886d44.css">
+    <link rel="stylesheet" href="/0000/assets/index-5633843a.css">
   </head>
   <body>
-    <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="/0000/assets/javascript-8dac5379.svg" alt="" />
-    </section>
 
     <!-- Loads the specified .html file -->
-    <section class="vite-promo">
-  <div class="container">
-    <div class="wrapper">
-      <h2 class="title">
-        <span class="gradient">Vite</span>
-      </h2>
-      <p class="text">Next Generation Frontend Tooling</p>
-      <p class="tagline">
-        Get ready for a development environment that can finally catch up with
-        you.
-      </p>
 
-      <ul class="actions">
-        <li class="action">
-          <a
-            class="link"
-            href="https://vitejs.dev/guide/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Get Started</a
-          >
-        </li>
-        <li class="action">
-          <a
-            class="link"
-            href="https://github.com/vitejs/vite"
-            target="_blank"
-            rel="noopener noreferrer"
-            >View on GitHub</a
-          >
-        </li>
-      </ul>
+        
+
+        <!-- About our restaurant -->
+<section class="rest">
+  <div class="conteiner">
+    <div class="rest-page">
+      <div class="rest-one">
+        <p class="rest-pretitle">Amet minim mollit non</p>
+        <h3 class="rest-title">MIMIHO</h3>
+        <p class="rest-text">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+      </div>
+      <picture>
+        <source
+          srcset="
+          ../img/rest/interior.jpg 1x, 
+          ../img/rest/interior@2x.jpg 2x"
+          media="(min-width:1200px)"
+        />
+        <source
+          srcset="
+            ../img/rest/interior-tab.jpg    1x,
+            ../img/rest/interior-tab@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ../img/rest/interior-mob.jpg    1x,
+            ../img/rest/interior-mob@2x.jpg 2x
+          "
+          media="(min-width: 320px)"
+        />
+        <img
+          src="../img/rest/interior.jpg"
+          alt="rest"
+          width="460"
+          height="574"
+          class="rest-img"
+        />
+      </picture>
     </div>
-
-    <div class="thumb">
-      <!-- Path to images as from index.html file -->
+    <div class="rest-two">
+      <picture>
+        <source
+          srcset="
+            ../img/rest/oruri-jacome.jpg    1x,
+            ../img/rest/oruri-jacome@2x.jpg 2x
+          "
+          media="(min-width:1200px)"
+        />
+        <source
+          srcset="
+            ../img/rest/oruri-jacome-tab.jpg    1x,
+            ../img/rest/oruri-jacome-tab@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <sourceo
+          srcset="
+            ../img/rest/oruri-jacome-mob.jpg    1x,
+            ../img/rest/oruri-jacome-mob@2x.jpg 2x
+          "
+          media="(min-width: 320px)"
+        />
+        <img
+          src="../img/rest/oruri-jacome.jpg"
+          alt="rest"
+          width="460"
+          height="574"
+          class="rest-imga"
+        />
+      </picture>
+      <p class="rest-text-next">
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet.
+      </p>
+    </div>
+    <div class="conteiner-foto">
       <img
-        class="pic"
-        src="/0000/assets/vite-logo-51249ca9.png"
-        alt="Vite logo"
-        width="640"
-        height="640"
+        src="../img/rest/helena.jpg"
+        alt="rest"
+        srcset="../img/rest/helena.jpg 1x, ../img/rest/helena@2x.jpg 2x"
+        width="245"
+        height="245"
+        class="rest-imge"
+      />
+
+      <img
+        src="../img/rest/mat.jpg"
+        alt="rest"
+        srcset="../img/rest/mat.jpg 1x, ../img/rest/mat@2x.jpg 2x"
+        width="245"
+        height="245"
+        class="rest-imge"
       />
     </div>
   </div>
 </section>
+
+        
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+<section class="det-hotel">
+    <div class="container">
+        <a class="mimino" href="">mimiho</a>
+        <h3 class="det-hotel-title">Готель</h3>
+        <p class="det-hotel-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+            officia consequat duis enim velit mollit.</p>
+            <div class="det-hotel-image-arrow">
+            <div class="det-hotel-images">
+            <img src="../img/details-of-our-hotel/det-hotel-lunch.png" alt="">
+        <img src="../img/details-of-our-hotel/det-of-our-hotel.jpg" 
+        alt="" width="274" height="270">
+        </div>
+        
+        <div class="svg-icons">
+        <button type="button" class="det-hotel-button">
+            <svg class="det-hotel-icon" width="32" height="32">
+                <use href="../img/sprite.svg#icon-arrow-left"></use>
+            </svg>
+        </button>
+        <button type="button" class="det-hotel-button">
+            <svg class="det-hotel-icon" width="32" height="32" >
+                <use href="../img/sprite.svg#icon-arrow-right"></use>
+            </svg>
+        </button>
+        </div>
+        </div>
+        <div class="btn-price">
+          <button type="button" class="det-hotel-btn">Забронювати номер</button>
+            <a href="" class="det-hotel-btn-price">Переглянути ціни</a>
+        </div>
+
+
+    </div>
+</section>
+
+
+<a href=""></a>
+        
+
+            
+            <!-- About-our-kitchen -->
+<section class="rest">
+  <div class="conteiner">
+    <div class="rest-page">
+      <div class="rest-one">
+        <p class="rest-pretitle">Amet minim mollit non</p>
+        <h3 class="rest-title">MIMIHO</h3>
+        <p class="rest-text">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+        </div>
+        <picture>
+          <source
+            srcset="
+            ../img/kitchen/fire.jpg 1x, 
+            ../img/kitchen/fire@2x.jpg 2x"
+            media="(min-width:1200px)"
+          />
+          <source
+            srcset="
+              ../img/kitchen/fire-tab.jpg    1x,
+              ../img/kitchen/fire-tab@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../img/kitchen/fire-mob.jpg    1x,
+              ../img/kitchen/fire-mob@2x.jpg 2x
+            "
+            media="(min-width: 320px)"
+          />
+          <img
+            src="../img/kitchen/fire.jpg"
+            alt="rest"
+            width="460"
+            height="574"
+            class="rest-img"
+          />
+        </picture>
+      
+    </div>
+    <div class="rest-two">
+      <picture>
+        <source
+          srcset="
+            ../img/kitchen/meet.jpg    1x,
+            ../img/kitchen/meet@2x.jpg 2x
+          "
+          media="(min-width:1200px)"
+        />
+        <source
+          srcset="
+            ../img/kitchen/meet-tab.jpg    1x,
+            ../img/kitchen/meet-tab@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <sourceo
+          srcset="
+            ../img/kitchen/meet-mob.jpg    1x,
+            ../img/kitchen/meet-mob@2x.jpg 2x
+          "
+          media="(min-width: 320px)"
+        />
+        <img
+          src="../img/kitchen/meet.jpg"
+          alt="rest"
+          width="460"
+          height="574"
+          class="rest-imga"
+        />
+      </picture>
+      <p class="rest-text-next">
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet.
+      </p>
+    </div>
+    <div class="conteiner-foto">
+      <img
+        src="../img/kitchen/helena1.jpg"
+        alt="rest"
+        srcset="../img/kitchen/helena1.jpg 1x, ../img/kitchen/helena1@2x.jpg 2x"
+        width="245"
+        height="245"
+        class="rest-imge"
+      />
+
+      <img
+        src="../img/kitchen/mat-brown.jpg"
+        alt="rest"
+        srcset="../img/kitchen/mat-brown.jpg 1x, ../img/kitchen/mat-brown@2x.jpg 2x"
+        width="245"
+        height="245"
+        class="rest-imge"
+      />
+    </div>
+  </div>
+</section>
+
+            
+
+            
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="../css/1-room-luxe-for-2-adult.css">
+<section class="section-luxe">
+    <div class="container-luxe">
+        <h3 class="headline-first">Amet minim mollit non</h3>
+        <a href="#" class="mimino headline">MIMIHO</a>
+        <h3 class="headlines-luxe">ДВОМІСНИЙ НОМЕР люкс</h3>
+        <div class="text-container">
+            <p class="text-luxe"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                officia consequat duis enim velit
+                mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+        <img src="../img/bedroom-desktop.png" srcset="../img/bedroom-tablet.png 2x" alt="bedroom" width="244"
+            height="322" class="bedroom-img">
+        <div class="flex-lux">
+            <div class="slaider-lux">
+                <img src="../img/bathroom-desktop.png" srcset="../img/bathroom-tablet.png 2x" alt="bathroom" width="74"
+                    height="194" class="bath">
+                <img src="../img/cup-desktop.png" alt="cup" width="194" height="194" class="img-cup">
+            </div>
+            <div class="btt">
+                <button type="button" class="luxe-btt">Детальніше</button>
+                <button type="button" class="luxe-btt">Переглянути ціни</button>
+            </div>
+        </div>
+        <div class="luxe-svg">
+            <button type="button" class="svg-btt">
+                <svg class="icon-luxe" width="35" height="25">
+                    <use href="../img/sprite.svg#icon-arrow-left"></use>
+                </svg></button>
+            <button type="button" class="svg-btt">
+                <svg class="icon-luxe" width="30" height="25">
+                    <use href="../img/sprite.svg#icon-arrow-right"></use>
+                </svg></button>
+        </div>
+    </div>
+</section>
+            
+            
+
+                
+                
 
 
     
